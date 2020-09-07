@@ -1,0 +1,13 @@
+project_id    = "my-day02-project"
+region        = "us-central1"
+zone          = "us-central1-c"
+name_instance = "jump-host"
+machine_type  = "custom-1-4608"
+image_jump    = "debian-cloud/debian-9"
+disk_type     = "pd-ssd"
+disk_size_gb  = "20"
+sub_pub_name  = "public-subnetwork"
+net_name      = "siarhei-hryshchanka"
+tags          = ["ssh-jump"]
+ssh_user_name = "ubuntu"
+ssh_key_name  = "key.pub"
